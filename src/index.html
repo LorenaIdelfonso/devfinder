@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Devfinder</title>
+  </head>
+  <body class="bg-slate-800 text-gray-100 max-w-3xl mx-auto px-5">
+    <header class="flex justify-between items-center py-5 mb-2">
+      <span class="text-3xl font-semibold">devfinder</span>
+
+      <button class="flex items-center gap-2">
+        <span class="font-semibold uppercase">Light</span>
+        <img class="w-5" src="./img/sun-solid.svg" alt="" />
+      </button>
+    </header>
+
+    <div class="bg-slate-700 rounded-lg p-3 flex items-center gap-3 mb-5">
+      <img class="w-6" src="./img/magnifying-glass-solid.svg" alt="" />
+      <input
+        class="block w-full bg-transparent border-none outline-none text-lg"
+        type="text"
+        name=""
+        id=""
+        placeholder="Search GitHub username"
+      />
+      <button
+        class="bg-blue-600 rounded-md px-4 py-2 font-semibold hover:bg-blue-700 transition-colors duration-200"
+      >
+        Search
+      </button>
+    </div>
+
+    <section class="bg-slate-700 rounded-lg p-5">
+      <div class="grid grid-cols-100px-1fr gap-5 mb-5">
+        <div>
+          <img class="rounded-full" src="./img/octocat.png" alt="" />
+        </div>
+        <div class="flex flex-col gap-1">
+          <h1 class="text-2xl font-semibold">The Octocat</h1>
+          <span class="text-sm text-blue-500">@octocat</span>
+          <span class="text-sm">Joined 25 Jan 2011</span>
+        </div>
+      </div>
+
+      <p class="text-md italic mb-4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      </p>
+
+      <div class="bg-slate-800 rounded-lg p-5 flex justify-between mb-5">
+        <div class="flex flex-col items-center">
+          <span class="text-sm">Repos</span>
+          <span class="text-xl font-bold">8</span>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <span class="text-sm">Followers</span>
+          <span class="text-xl font-bold">3938</span>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <span class="text-sm">Following</span>
+          <span class="text-xl font-bold">9</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 text-sm gap-2">
+        <a href="">
+          <img src="" alt="" />
+          <span>San Francisco</span>
+        </a>
+
+        <a href="">
+          <img src="" alt="" />
+          <span>https://github.com</span>
+        </a>
+
+        <a href="">
+          <img src="" alt="" />
+          <span>Not available</span>
+        </a>
+
+        <a href="">
+          <img src="" alt="" />
+          <span>@github</span>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
